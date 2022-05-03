@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display-block">
+        <div class="output-field" id="output-field"></div>
+        <div class="input-field" id="input-field"></div>
+      </div>
+      <div class="divider"></div>
+      <div class="dial">
+        <div class="button" data-value="delete">C</div>
+        <div class="button" data-value="(">(</div>
+        <div class="button" data-value=")">)</div>
+        <div class="button" data-value="/">/</div>
+
+        <div class="button" data-value="7">7</div>
+        <div class="button" data-value="8">8</div>
+        <div class="button" data-value="9">9</div>
+        <div class="button" data-value="*">*</div>
+
+        <div class="button" data-value="4">4</div>
+        <div class="button" data-value="5">5</div>
+        <div class="button" data-value="6">6</div>
+        <div class="button" data-value="-">-</div>
+
+        <div class="button" data-value="1">1</div>
+        <div class="button" data-value="2">2</div>
+        <div class="button" data-value="3">3</div>
+        <div class="button" data-value="+">+</div>
+
+        <div class="button" data-value="00">00</div>
+        <div class="button" data-value="0">0</div>
+        <div class="button" data-value=",">,</div>
+        <div class="button circle" data-value="=">=</div>
+      </div>
+    </div>
+    <div class="calculator-overload"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
